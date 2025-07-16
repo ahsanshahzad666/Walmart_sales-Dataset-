@@ -19,16 +19,12 @@
   <li>API Setup: Obtain your Kaggle API token from Kaggle by navigating the profile settings and downloading the JSON file.</li>
   <li>Use the command kaggle datasets download -d <dataset-path> to pull datasets directly into your project.</li>
 
-<h3 style="border-bottom:none;"> 2. Set Up Kaggle API</h3>
-  <li>API Setup: Obtain your Kaggle API token from Kaggle by navigating the profile settings and downloading the JSON file.</li>
-  <li>Use the command kaggle datasets download -d <dataset-path> to pull datasets directly into your project.</li>
-
 <h3 style="border-bottom:none; margin-bottom: 5px;">3. Download Walmart Sales Data</h3>
   <li><strong>Data Source:</strong> Use the Kaggle API to download the Walmart sales datasets from Kaggle.</li>
   <li><strong>Dataset Link:</strong> Walmart Sales Dataset</li>
   <li><strong>Storage:</strong> Save the data in the <code>data/</code> folder for easy reference and access.</li>
 
 <h3 style="border-bottom:none; margin-bottom: 5px;">4. Install Required Libraries and Load Data</h3>
-  <li><strong>Libraries:</strong> Install necessary Python libraries using the command below.</li>
+  <li style = "margin-bottom: 5px;" ><strong>Libraries:</strong> Install necessary Python libraries using the command below.</li>
 
 <pre><code>pip install pandas numpy sqlalchemy mysql-connector-python psycopg2</code></pre>
