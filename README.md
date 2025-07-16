@@ -1,4 +1,4 @@
-<h2> Walmart Sales Data Engineering Project </h2>
+<h1>Walmart Data Analysis: End-to-End SQL + Python Project </h1>
 <hr style="border: 0.5px solid #999;">
 
 
