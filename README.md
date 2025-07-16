@@ -12,13 +12,11 @@
 <h1> Project Steps </h1>
 
 <h2> 1. Set Up the Environment </h2>
-<ul>
   <li>Tools Used: Visual Studio Code (VS Code), Python, SQL (MySQL)</li>
   <li>Goal: Create a structured workspace within VS Code and organize project folders for smooth development and data handling.</li>
-</ul>
 
 <h2> 2. Set Up Kaggle API </h2>
-<ul>
   <li>API Setup: Obtain your Kaggle API token from Kaggle by navigating the profile settings and downloading the JSON file.</li>
   <li>Use the command kaggle datasets download -d <dataset-path> to pull datasets directly into your project.</li>
-</ul>
+
+
