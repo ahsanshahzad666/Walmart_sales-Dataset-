@@ -27,4 +27,4 @@
 <h3 style="border-bottom:none; margin-bottom: 5px;">4. Install Required Libraries and Load Data</h3>
   <li ><strong>Libraries:</strong> Install necessary Python libraries using the command below.</li>
 
-<pre style = "margin-bottom: 5px;" ><code>pip install pandas numpy sqlalchemy mysql-connector-python psycopg2</code></pre>
+<pre><code style = "margin-bottom: 5px;" >pip install pandas numpy sqlalchemy mysql-connector-python psycopg2</code></pre>
