@@ -9,4 +9,4 @@
 </P>
 <hr style="border: 0.5px solid #bbb;">
 
-<h3> Project Steps </h3>
+<h1> Project Steps </h1>
