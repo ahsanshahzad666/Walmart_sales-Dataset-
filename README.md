@@ -25,6 +25,6 @@
   <li><strong>Storage:</strong> Save the data in the <code>data/</code> folder for easy reference and access.</li>
 
 <h3 style="border-bottom:none; margin-bottom: 5px;">4. Install Required Libraries and Load Data</h3>
-  <li ><strong>Libraries:</strong> Install necessary Python libraries using the command below.</li>
+  <li style = "margin-bottom: 5px;" ><strong>Libraries:</strong> Install necessary Python libraries using the command below.</li>
 
-<pre><code style = "margin-bottom: 5px;" >pip install pandas numpy sqlalchemy mysql-connector-python psycopg2</code></pre>
+<pre><code >pip install pandas numpy sqlalchemy mysql-connector-python psycopg2</code></pre>
