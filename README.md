@@ -1,4 +1,4 @@
-<h1>Walmart Data Analysis: End-to-End SQL + Python Project </h1>
+<h1>Walmart Data Pipeline Project: From Kaggle API to SQL Insights with Python </h1>
 <hr style="border: 0.5px solid #999;">
 
 
