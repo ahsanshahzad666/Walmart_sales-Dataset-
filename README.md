@@ -28,3 +28,12 @@
   <li style = "margin-bottom: 5px;" ><strong>Libraries:</strong> Install necessary Python libraries using the command below.</li>
 
 <pre><code >pip install pandas numpy sqlalchemy mysql-connector-python psycopg2</code></pre>
+
+### pip install pandas numpy sqlalchemy mysql-connector-python psycopg2
+- pip install pandas numpy sqlalchemy mysql-connector-python psycopg2
+- pip install pandas numpy sqlalchemy mysql-connector-python psycopg2
+- ip install pandas numpy sqlalchemy mysql-connector-python psycopg2
+
+
+
+
