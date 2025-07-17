@@ -7,18 +7,18 @@
 This project is an end-to-end data analysis solution designed to extract critical business insights from Walmart sales data. We utilize Python for data processing and analysis, SQL for advanced querying, and structured problem-solving techniques to solve key business questions. The project is ideal for data analysts looking to develop skills in data manipulation, SQL querying, and data pipeline creation.
 
 
-<h1> Project Steps </h1>
+## Project Steps 
 
-<h3 style="border-bottom:none;"> 1. Set Up the Environment </h3>
-  <li>Tools Used: Visual Studio Code (VS Code), Python, SQL (MySQL)</li>
-  <li>Goal: Create a structured workspace within VS Code and organize project folders for smooth development and data handling.</li>
+### 1.Set Up the Environment
+- **Tools Used:** Visual Studio Code (VS Code), Python, SQL (MySQL)
+- **Goal:** Create a structured workspace within VS Code and organize project folders for smooth development and data handling.
 
-<h3 style="border-bottom:none;"> 2. Set Up Kaggle API</h3>
-  <li>API Setup: Obtain your Kaggle API token from Kaggle by navigating the profile settings and downloading the JSON file.</li>
-  <li>Use the command kaggle datasets download -d <dataset-path> to pull datasets directly into your project.</li>
+### 2. Set Up Kaggle API</h3>
+ - API Setup: Obtain your Kaggle API token from Kaggle by navigating the profile settings and downloading the JSON file.
+ - Use the command kaggle datasets download -d <dataset-path> to pull datasets directly into your project.
 
-<h3 style="border-bottom:none; margin-bottom: 5px;">3. Download Walmart Sales Data</h3>
-  <li><strong>Data Source:</strong> Use the Kaggle API to download the Walmart sales datasets from Kaggle.</li>
+### 3. Download Walmart Sales Data</h3>
+  <li><strong>Data Source:</strong> Use the Kaggle API to download the Walmart sales datasets from Kaggle.
   <li><strong>Dataset Link:</strong> Walmart Sales Dataset</li>
   <li><strong>Storage:</strong> Save the data in the <code>data/</code> folder for easy reference and access.</li>
 
