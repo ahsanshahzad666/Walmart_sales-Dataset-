@@ -74,7 +74,7 @@ This project is an end-to-end data analysis solution designed to extract critica
 
 ---
 
-🗂 Project Structure
+## 🗂 Project Structure
 
 ```plaintext
 |-- data/                     # Raw data and transformed data
@@ -85,19 +85,19 @@ This project is an end-to-end data analysis solution designed to extract critica
 |-- main.py                   # Main script for loading, cleaning, and processing data
 ```
 
-## Key Learnings & Insights
+### Key Learnings & Insights
 - Practical experience using Pandas + SQLAlchemy for ETL pipelines.
 - Hands-on MySQL and PostgreSQL querying for business logic.
 - Cleaned real-world data and performed custom feature engineering.
 - Built confidence working with SQL joins, aggregations, and time-series data.
 
-## Future Enhancements
+### Future Enhancements
 Possible extensions to this project:
 - Integration with a dashboard tool (e.g., Power BI or Tableau) for interactive visualization.
 - Additional data sources to enhance analysis depth.
 - Automation of the data pipeline for real-time data ingestion and analysis.
 
-## Requirements
+### Requirements
 - Python
 - MySQL
 - Required Libraries:
