@@ -1,1 +1,110 @@
+✅ Project Requirements 
+
+
+1. Required Python Libraries:
+pandas
+pymysql
+sqlalchemy
+
+--------------------------------------------
+
+2. Environment Setup 
+Verify Python & pip installation:
+python --version
+pip --version
+
+If pip is not installed (usually it is)
+python -m ensurepip --upgrade
+
+--------------------------------------------
+
+3. Kaggle API Setup 
+Create a Kaggle account: https://kaggle.com
+Go to My Account > API > Create New API Token
+It downloads a file: kaggle.json
+
+Place it in the correct folder:
+mkdir %USERPROFILE%\.kaggle
+copy %USERPROFILE%\Downloads\kaggle.json %USERPROFILE%\.kaggle\
+
+--------------------------------------------
+
+4. Download Datasets via Kaggle CLI
+
+First: install the Kaggle CLI:
+pip install kaggle
+
+Second: Add Kaggle to Environment Variables (optional fix)
+If kaggle command isn’t recognized:
+setx PATH "%PATH%;%USERPROFILE%\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.x_qmxxxxx\LocalCache\local-packages\Python310\Scripts"
+
+Third: Download a dataset
+cd path\to\your\project\folder
+kaggle datasets download -d dataset-name
+
+Fouth: Unzip the dataset
+tar -xf dataset-name.zip
+:: OR
+powershell Expand-Archive dataset-name.zip
+
+
+--------------------------------------------
+
+5. Test Connection to MySQL 
+from sqlalchemy import create_engine
+# MySQL
+mysql_engine = create_engine('mysql+pymysql://username:password@localhost:3306/database_name')
+
+
+
+
+--------------------------------------------
+
+
+6. VS Code Terminal (Recommended)
+
+Create a Virtual Environment:
+python -m venv my_env1
+
+Bypass script restrictions & activate:
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+my_env1\Scripts\activate
+
+
+--------------------------------------------
+
+📌 Summary of Key Commands (VS Code Terminal)
+
+| Task                   | Command (Windows / VS Code)                                  |
+| ---------------------- | ------------------------------------------------------------ |
+| Python version check   | `python --version`                                           |
+| pip version check      | `pip --version`                                              |
+| Create venv            | `python -m venv my_env1`                                     |
+| Allow script execution | `Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass` |
+| Activate environment   | `my_env1\Scripts\activate`                                   |
+| Install core libraries | `pip install pandas pymysql sqlalchemy psycopg2-binary`      |
+| Kaggle setup folder    | `mkdir $env:USERPROFILE\.kaggle`                             |
+| Move kaggle.json       | `copy ~\Downloads\kaggle.json $env:USERPROFILE\.kaggle\`     |
+| Download dataset       | `kaggle datasets download -d dataset-name`                   |
+| Unzip dataset          | `Expand-Archive dataset-name.zip`                            |
+
+
+
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
 
